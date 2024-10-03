@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou o Vitor Pauleti_</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou um aluno do colégio Basílio de Lucca e faço o curso do alura em que eu aprendo HTML, CSS, JavaScript e Scratch. Veja os projetos que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Explorando o Universo: Uma Aventura Interativa em um pong com Scratch</h5>
+                        <p class="card-text">Este projeto Scratch cria uma experiência interativa educativa sobre
+                            um jogo de pingue-pongue , permitindo aos usuários jogar um jogo pingue-pongue  com o tema da Terra e a Estrela.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Teste seus Conhecimentos: O Grande Quiz
+                            Artificial</h5>
+                        <p class="card-text">Esse quiz serve para testar e aprimorar conhecimentos sobre um 
+                            determinado tema de forma divertida e interativa. Ele pode ser usado em ambientes
+                             educacionais, para revisar conteúdos, ou em encontros sociais, como uma forma de
+                              entretenimento. Além disso, pode ajudar a identificar áreas em que os participantes
+                               podem querer aprender mais. Você gostaria de explorar algum aspecto específico?</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Explorando o Universo: Uma Aventura Interativa em Astronomia com Scratch
+                        </h5>
+                        <p class="card-text">Este projeto Scratch cria uma experiência interativa educativa sobre
+                            astronomia, permitindo aos usuários explorar informações sobre constelações, eclipses, e a
+                            forma da Terra através de cenários dinâmicos e diálogos informativos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Para criar um jogo de pingue-pongue no Scratch, comece definindo a mecânica básica:
+                         dois jogadores controlam as raquetes e tentam marcar pontos. Delve no design, 
+                         criando sprites para as raquetes e a bola, e uma tela de fundo. Em seguida,
+                           programe a movimentação das raquetes usando as setas do teclado e a barra de
+                            espaço para iniciar a partida. Por fim, adicione a lógica para detectar colisões
+                             e pontuação, garantindo que cada elemento contribua para a experiência de jogo 
+                             divertida e envolvente.
+                    </p>
+                    <p>A estrutura do jogo de pingue-pongue no Scratch pode ser dividida em várias partes. Primeiro,
+                         há a tela inicial, onde os jogadores podem iniciar o jogo. Depois, a área de jogo é onde a 
+                         ação acontece, com duas raquetes, uma bola e a linha de divisão. Cada jogador controla uma 
+                         raquete, enquanto a bola se move automaticamente, ricocheteando nas raquetes e nas bordas. 
+                         A lógica de pontuação é implementada para que, quando a bola passa pela raquete, o adversário 
+                         ganhe um ponto. Por fim, uma tela de vitória pode ser adicionada para celebrar o jogador que alcançar a pontuação final.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de um jogo de pingue-pongue">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/853394103/#">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Desenvolvimento de um Quiz Interativo no Visual Studio
+                        Recentemente, decidi criar um quiz interativo utilizando o Visual Studio.
+                         O objetivo era desenvolver uma aplicação que permitisse aos usuários testar 
+                         seus conhecimentos de forma divertida. Abaixo, descrevo o passo a passo do processo que segui.
+                    </p>
+                    <p>1. Planejamento do Quiz
+                        Primeiro, defini o tema e as perguntas do quiz. Escolhi um tema popular e
+                         elaborei uma série de perguntas com múltiplas alternativas. Para cada pergunta, 
+                         determinei a resposta correta, o que facilitaria a avaliação no final do questionário.</p>
+                    <p>2. Configurando o Ambiente
+                        Abri o Visual Studio e criei um novo projeto do tipo "Aplicação de Console".
+                         Esse tipo de projeto era ideal, pois permitia interagir facilmente com o usuário
+                          por meio do terminal.</p>
+                    <p>3. Interação com o Usuário
+                        No loop principal do programa, utilizei Console.WriteLine para apresentar cada
+                         pergunta e suas opções. Recebi a entrada do usuário através de Console.ReadLine,
+                          convertendo-a para um inteiro para verificar se a resposta estava correta.
+                        </p>
+                        <p>
+                        4. Avaliação e Feedback
+                        Após o usuário responder todas as perguntas, exibi a pontuação final. 
+                        Isso foi feito somando os acertos e apresentando um feedback ao usuário sobre seu desempenho.
+                        </p>
+                        <p>
+                        5. Testes e Melhorias
+                        Realizei diversos testes para garantir que o código estava funcionando como 
+                        esperado. Ajustei algumas perguntas e respostas para melhorar a clareza e a experiência do usuário.
+                    </p>
+                    <p>
+                        6. Conclusão
+                        A experiência de criar este quiz no Visual Studio foi muito enriquecedora.
+                         Aprendi mais sobre a estrutura de dados em C#, manipulação de listas e como
+                          interagir com o usuário em uma aplicação de console. Agora, estou animado 
+                          para explorar mais possibilidades, como adicionar um sistema de pontuação 
+                          mais elaborado ou uma interface gráfica!
+                    </p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="http://127.0.0.1:5501/site_Escola4-main/Site_Escola4/index.html">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/vitorpauleti/site_Escola4">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma aplicação educativa interativa focada em ensinar conceitos básicos de
+                        astronomia. Utiliza uma série de scripts associados a diferentes atores (sprites) e
+                        cenários para criar uma experiência de aprendizado envolvente. O objetivo é familiarizar
+                        os usuários com tópicos como as fases da Lua, eclipses, a visibilidade de diferentes
+                        constelações dependendo da localização geográfica na Terra, e a forma da Terra, através
+                        de interações e visualizações dinâmicas.</p>
+                    <p>Cada ator no projeto possui scripts que definem seu comportamento em resposta a eventos
+                        específicos, como o início do programa (quando a bandeira é clicada), cliques do
+                        usuário, ou mensagens recebidas. Estes eventos desencadeiam ações como mudanças de
+                        cenário, movimentos de atores, exibição ou ocultação de atores, e a apresentação de
+                        diálogos informativos. Por exemplo, ao clicar em determinados atores, os usuários podem
+                        "receber" uma prova, o que leva a uma mudança de cenário e a exibição de informações
+                        relevantes ou a visualização de uma constelação específica.</p>
+                    <p>A importância das ferramentas utilizadas, como os blocos de código visual do Scratch,
+                        reside na sua acessibilidade e na capacidade de engajar aprendizes de diferentes idades
+                        no pensamento computacional e na exploração de conceitos científicos de forma
+                        interativa. O uso de cenários, movimentos, e diálogos dinâmicos ajuda a criar uma
+                        experiência de aprendizado mais rica e memorável, encorajando os usuários a explorar e
+                        interagir com o conteúdo de maneira ativa, em vez de passivamente.</p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="http://127.0.0.1:5501/index.html">Ver projeto ao vivo</a>
+                    <a href="https://github.com/vitorpauleti/Site_Escola3">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/vitorpauleti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Vitor Pauleti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
